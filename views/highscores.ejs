@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz - HighScores</title>
+    <link rel="stylesheet" href="/styles/app.css">
+    <link rel="stylesheet" href="/styles/highscores.css">
+</head>
+<body>
+    <div class="container">
+        <div class="flex" id="high">
+            <h1>High Scores</h1>
+            <ol class="highh">
+               <%   data.forEach(element => { %>
+                    <li>
+                        <span><%= element.username %></span>
+                        <span><%= element.sco %></span>
+                    </li>
+               <%   }); %>
+            </ol>
+            <a href="/" class="btn hmu">Go Home</a>
+        </div>
+    </div>
+
+   <script src="app.js"></script>
+</body>
+</html>

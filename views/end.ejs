@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz - End</title>
+    <link rel="stylesheet" href="/styles/app.css">
+</head>
+<body>
+    <div class="container">
+        <div class="flex" id="end">
+            <form method="post" action="/save">
+                 <h1 class="highscore" data-number="0">0</h1>
+                <input type="text" name="username" id="username" placeholder="Username" required>
+                <input type="text" name="scoree" id="scoree" hidden>
+                <button type="submit" class="btn submit" onclick="saveHighScore(event)">Save</button>
+             </form>
+             <a href="/game" class="btn">Play Again</a>
+             <a href="/highscores.html" class="btn">High Scores</a>
+        </div>
+    </div>
+
+    <script src="end.js"></script>
+    <script>
+        const username = document.querySelector("#username");
+const highScore = document.querySelector(".highscore");
+const submit = document.querySelector(".submit");
+const mostRecentScore = localStorage.getItem("mostRecentScore");
+highScore.innerText = mostRecentScore;
+document.getElementById("scoree").value = mostRecentScore;
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,82 @@
+[
+    {
+        "question": "Inside which HTML element do we put the JavaScript??",
+        "choice1": "<script>",
+        "choice2": "<javascript>",
+        "choice3": "<js>",
+        "choice4": "<scripting>",
+        "answer": 1
+      },
+      {
+        "question": "What is the correct syntax for referring to an external script called 'xxx.js'?",
+        "choice1": "<script href='xxx.js'>",
+        "choice2": "<script name='xxx.js'>",
+        "choice3": "<script src='xxx.js'>",
+        "choice4": "<script file='xxx.js'>",
+        "answer": 3
+      },
+      {
+        "question": " How do you write 'Hello World' in an alert box?",
+        "choice1": "msgBox('Hello World');",
+        "choice2": "alertBox('Hello World');",
+        "choice3": "msg('Hello World');",
+        "choice4": "alert('Hello World');",
+        "answer": 4
+      },
+    {
+        "question": "How do you change this variable to Lagos? let city = 'Abuja'",
+        "choice1": "let city = 'Lagos'",
+        "choice2": "const city = 'Lagos'",
+        "choice3": "city = 'Lagos'",
+        "choice4": "none",
+        "answer": 3
+    },
+    {
+        "question": "How do you change this variable to Lagos? const city = 'Abuja'",
+        "choice1": "let city = 'Lagos'",
+        "choice2": "const city = 'Lagos'",
+        "choice3": "city = 'Lagos'",
+        "choice4": "none",
+        "answer": 4
+    },
+    {
+        "question": "You have placed an image in a directory named images and want to reference it from a page located in the root of your site. Which choice would correctly display the image on the page?",
+        "choice1": "< img src='image.jpg'>",
+        "choice2": "< a href='images/image.jpg'>",
+        "choice3": "< img src='images/image.jpg'>",
+        "choice4": "< img href='image.jpg'>",
+        "answer": 3
+    },
+    {
+        "question": "Which choice is not a value of the type attribute of the <input> element?",
+        "choice1": "range",
+        "choice2": "address",
+        "choice3": "date",
+        "choice4": "password",
+        "answer": 2
+    },
+    {
+        "question": "Which choice is a correct use of the parseInt() function in JavaScript that parses a string and return an integer?",
+        "choice1": "parseInt('six');",
+        "choice2": "parse_int('6');",
+        "choice3": "parseInt('6');",
+        "choice4": "parseint('6');",
+        "answer": 3
+    },
+    {
+        "question": "Which choice is not part of CSS box model",
+        "choice1": "paragraph",
+        "choice2": "margin",
+        "choice3": "border",
+        "choice4": "padding",
+        "answer": 1
+    },
+    {
+        "question": "What will this loop print? Captionless    let max = 3; for(i=0; i>max; i++) {document.write('skirt');}",
+        "choice1": "skrt skrt skrt",
+        "choice2": "skrt skrt",
+        "choice3": "skrt skrt skrt skrt",
+        "choice4": "nothing",
+        "answer": 4
+    }
+]

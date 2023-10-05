@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ecf5ff;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 3.5rem;
+    color: #56a5cb;
+}
+
+h2 {
+    font-size: 2.8rem;
+    margin-bottom: 3rem;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 2.2rem;
+    margin-bottom: 3rem;
+    font-weight: 500;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.container > * {
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.question {
+    font-size: 2.2rem;
+    margin-bottom: 3rem;
+    font-weight: 500;
+}
+
+.choice-con {
+    display: flex;
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+    width: 600px;
+    background-color: white;
+    border: 1px solid rgba(86, 185, 235, 0.25);
+}
+
+.choice-con:hover {
+    cursor: pointer;
+    box-shadow: 0 0.2rem 1rem 0 rgba(86, 185, 235, 0.5);
+    transform: translateY(-0.2rem);
+    transition: all 150ms;
+}
+
+.c-pref {
+    background-color: #56a5cb;
+    padding: 10px 20px;
+}
+
+.c-text {
+    padding: 10px 15px;
+    width: 100%;
+}
+
+.correct {
+    background-color: rgb(7, 241, 7);
+    transition: all 300ms;
+}
+
+.incorrect {
+    background-color: red;
+    transition: all 300ms;
+    opacity: 0.8;
+}
+
+/* HEAD */
+
+.head {
+    display: flex;
+    width: 100vh;
+    justify-content: space-between;
+}
+
+.score, .q-no, .score-no {
+    text-align: center;
+}
+
+.head p {
+    font-size: 1.5rem;
+}
+
+/* PROGRESS BAR  */
+
+.progress-bar {
+    width: 150px;
+    height: 25px;
+    border: 2px solid #56a5cb;
+    margin-top: 1rem;
+}
+
+.bar {
+    background-color: #56a5cb;
+    width: 0%;
+    height: 100%;
+}
+
+
+
+
+/* MEDIA QUERY */
+
+@media only screen and (max-width: 600px) {
+    .choice-con {
+        width: 90%;
+    }
+
+    .head {
+        width: 100%;
+    }
+}

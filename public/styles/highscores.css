@@ -1,0 +1,38 @@
+.highh {
+    margin-bottom: 1.5rem;
+}
+
+.highh li:not(:last-child) {
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #91c8f8;
+    padding-bottom: 0.5rem;
+}
+
+.highh li {
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.highh li:hover {
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        margin: 30px 7px;
+    }
+
+    .highh li {
+        gap: 5px;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    .highh li:hover {
+        transform: scale(1.02);
+    }
+}
