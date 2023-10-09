@@ -4,7 +4,7 @@ import mongoose from "mongoose";
 const app = express();
 const port = 3000;
 
-mongoose.connect('mongodb+srv://Olayemi:sinomo2006@cluster0.v0avwhv.mongodb.net/quizDB');
+mongoose.connect('mongodb+srv://Olayemi:@cluster0.v0avwhv.mongodb.net/quizDB');
 
 const saveSchema = {
     sco: Number,
